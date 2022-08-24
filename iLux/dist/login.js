@@ -40,6 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 setInputError(inputElement, "Password must be at least 8 characters in length");
                 
             }  
+            
         });
 
         inputElement.addEventListener("input", e => {
