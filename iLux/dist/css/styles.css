@@ -11888,6 +11888,19 @@ html {
   }
 }
 
+#testimonial {
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
+
+#whatwedo, #offer-nav, #aboutus{
+  color: #64a19d;
+  outline: none;
+  border-bottom: 0.25rem solid #64a19d;
+}
+
+
+
 .footer {
   padding: 5rem 0;
 }
