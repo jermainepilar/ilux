@@ -11623,6 +11623,9 @@ body {
 .projects-section {
   padding: 10rem 0;
 }
+
+
+
 .offer-projects-section {
   padding-top: 3rem;
   padding-bottom: 5rem;
@@ -11906,6 +11909,7 @@ html {
 
 .table {
   padding-top: 2rem;
+  color: white;
 }
 
 
