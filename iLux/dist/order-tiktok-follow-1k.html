@@ -94,9 +94,10 @@
             <form action="{{ url('/order/form-submit') }}" method="POST" class="form" id="order">
                 <!--@csrf--> 
                 <!-- Please include these hidden inputs and their respective values for every respective order form -->
-                <input type="hidden" id="service" name="service" value="">
+                <input type="hidden" id="service" name="service" value="1937">
                 <input type="hidden" id="package" name="package_name" value="Tiktok - 1,000 Followers">
                 <input type="hidden" id="price" name="price" value="499">
+                <input type="hidden" id="quantity" name="quantity" value="1000">
         
                 <h5 class="form_title">Order Process Form</h5>
                 <h2 style="font-weight: bold;" class="form_title">₱499</h2>
@@ -105,7 +106,7 @@
                 <div class="form_input-group">
                     <input type="text" name="link" class="form_input" autofocus placeholder="URL Tiktok Account" >
                 </div>
-                <button class="form_button mb-3" type="submit" href="/">Order Now</button>
+                <button class="form_button mb-3" type="submit" href="user.html">Order Now</button>
                 <p class="form_text">
                     <a class="form_link" href="offer.html">Back to Offers</a>
                 </p>
