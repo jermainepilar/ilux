@@ -16,8 +16,6 @@
     text-align: center;
 }
 
-
-
 .table-card {
     margin-left: 14rem;
     margin-right: 14rem;
@@ -62,8 +60,8 @@ table tr, th, td {
 }
 
 #pic {
-    max-width: 10vw;
-    padding-left: 5vw;
+    max-width: 5vw;
+    
     
 }
 
