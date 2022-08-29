@@ -1,4 +1,4 @@
-#offer-page{
+#offer-page, #ig-follow, #ig-likes, #twt-account, #yt-account, #fb-page, #fb-profile, #tiktok-ph, #tiktok-likes, #tiktok-follow{
     background: url(img/bg.jpg);
     background-size: cover;
 }
