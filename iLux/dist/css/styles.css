@@ -11904,6 +11904,9 @@ html {
   border-bottom: 0.25rem solid #64a19d;
 }
 
+.table {
+  padding-top: 2rem;
+}
 
 
 .footer {
