@@ -139,6 +139,11 @@ body{
     background: var(--color-primary);
 }
 
+.terms-link {
+    color: var(--color-secondary);
+}
+
+
 .form_button:hover {
     background: var(--color-primary-dark);
 }
@@ -160,4 +165,5 @@ body{
 .form_link:hover {
     text-decoration: underline;
 }
+
 

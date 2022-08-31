@@ -48,3 +48,15 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+
+//modal
+
+$(function() {
+
+    $('[data-toggle="modal"]'){
+      var modalId = $(this).data('target');
+      $(modalId).modal('show');
+  
+    });
+  
+  });

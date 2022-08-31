@@ -88,82 +88,36 @@
     </nav>
 
     <!--Register Form-->
-    <div id="form">
-        <div class="container-register ">
-        
-            <form class="form " id="createAccount">
-                <h1 class="form_title">Create Account</h1>
-                <div class="form_message form_message--error"></div>
-                <div class="form_input-group">
-                    <input type="text" id="signupUsername" class="form_input" autofocus placeholder="Username" required>
-                    <div class="form_input-error-message"></div>
-                </div>
-                <div class="form_input-group">
-                    <input type="text" class="form_input" autofocus placeholder="Email Address" required>
-                    <div class="form_input-error-message"></div>
-                </div>
-                <div class="form_input-group">
-                    <input type="password" id="signupPassword" class="form_input" autofocus placeholder="Password" required>
-                    <div class="form_input-error-message"></div>
-                </div>
-                <div class="form_input-group">
-                    <input type="password" id="signupConPassword" class="form_input" autofocus placeholder="Confirm password" required>
-                    <div class="form_input-error-message"></div>
-                </div>
-                <input type="checkbox" name="terms" class="inline mb-3" required />  I accept the <a class="terms-link" data-toggle="modal" data-target="#modalTerms">terms and conditions</a>
-                <!-- Modal -->
-                <div class="modal fade" id="modalTerms" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                        <h5 class="modal-title" id="ModalLabel">Terms and Conditions</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        </div>
-                        <div class="modal-body">
-                        <p>
-                            terms and conditions ni ilux<br>
-                        </p>
-                        </div>
-                        <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <button class="form_button mb-3" type="submit">Continue</button>
-                <p class="form_text">
-                    <a class="form_link" href="log-in.html" id="linkLogin">Already have an account? Sign in</a>
-                </p>
-                <p class="form_text">
-                    <a class="form_link" href="index.html">Back to Home</a>
-                </p>
-            </form>
-            <form class="form form--hidden" id="login">
-                <h1 class="form_title">Login</h1>
-                <div class="form_message form_message--error"></div>
-                <div class="form_input-group">
-                    <input type="text" class="form_input" autofocus placeholder="Username or email" >
-                    <div class="form_input-error-message"></div>
-                </div>
-                <div class="form_input-group">
-                    <input type="password" class="form_input" autofocus placeholder="Password" >
-                    <div class="form_input-error-message"></div>
-                </div>
-                <button class="form_button mb-3" type="submit">Continue</button>
-                <p class="form_text">
-                    <a href="#" class="form_link">Forgot your password?</a>
-                </p>
-                <p class="form_text">
-                    <a class="form_link" href="regform.html" id="linkCreateAccount">Don't have an account? Create account</a>
-                </p>
-                <p class="form_text">
-                    <a class="form_link" href="index.html">Back to Home</a>
-                </p>
-            </form>
+    <br><br><br><br>
+  <button type="button" class="btn btn-link" data-toggle="modal" data-target="#basicExampleModal">
+    Terms and Conditions
+  </button>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Terms and Conditions</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
         </div>
+        <div class="modal-body">
+          <p>
+            terms and conditions ni ilux<br>
+          </p>
+          <input type="checkbox" name="terms" class="inline mb-3" required /> I accept the terms and conditions
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
     </div>
+  </div>
+</div>
+
     <script src="login.js"></script>
     <script src="bootstrap.min.js"></script>
 </body>
